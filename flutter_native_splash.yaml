@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#F1F8F5" # Extremely soft desaturated green/teal background
+  image: "assets/icon.png"
+  fullscreen: true
+
+  android_12:
+    color: "#F1F8F5"
+    icon_background_color: "#F1F8F5"
+    image: "assets/icon.png"
+
+  web: false
