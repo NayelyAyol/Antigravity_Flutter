@@ -81,7 +81,7 @@ Crea una aplicación Flutter que obtenga la ubicación GPS actual usando Capacit
 
 #### Generación automática del código
 
-Claude analizó el requerimiento y generó automáticamente la lógica necesaria para:
+Antigravity analizó el requerimiento y generó automáticamente la lógica necesaria para:
 
 - Solicitar permisos de ubicación en primer y segundo plano.
 - Obtener coordenadas GPS mediante stream continuo.
@@ -92,7 +92,7 @@ Claude analizó el requerimiento y generó automáticamente la lógica necesaria
 
 #### Implementación del seguimiento en segundo plano
 
-Posteriormente se solicitó a Claude ampliar la funcionalidad para incorporar el seguimiento continuo mediante un Foreground Service de Android, manteniendo el GPS activo incluso cuando la aplicación permanece minimizada.
+Posteriormente se solicitó a Antigravity ampliar la funcionalidad para incorporar el seguimiento continuo mediante un Foreground Service de Android, manteniendo el GPS activo incluso cuando la aplicación permanece minimizada.
 
 #### Ejecución del proyecto
 
@@ -433,4 +433,4 @@ build/app/outputs/flutter-apk/app-release.apk
 - Se implementó una notificación persistente durante el seguimiento continuo.
 - Se configuró el ícono personalizado de la aplicación.
 - Se obtuvo un APK funcional para dispositivos Android.
-- Proyecto desarrollado con apoyo de **Claude**.
+- Proyecto desarrollado con apoyo de **Antigravity**.
