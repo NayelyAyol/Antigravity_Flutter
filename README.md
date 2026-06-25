@@ -340,31 +340,6 @@ _buildDataRow(
 
 ---
 
-## Implementación de ícono
-
-1. Agregar imagen `icon.png` en la carpeta:
-
-```
-assets/icon.png
-```
-
-2. Declarar en `pubspec.yaml`:
-
-```yaml
-flutter:
-  uses-material-design: true
-  assets:
-    - assets/icon.png
-```
-
-3. Configurar el ícono de la app en:
-
-```
-android/app/src/main/res/mipmap-*/ic_launcher.png
-```
-
----
-
 ## Ejecución en dispositivo Android
 
 Verificar dispositivo conectado:
@@ -421,6 +396,11 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ---
 
+## Descarga la APK
+
+- https://drive.google.com/drive/folders/1QQUc45N3ZTfsZG4xql3jw_dcQ7FkbIHS?usp=sharing
+
+---
 ## Resultados
 
 - Se obtuvo correctamente la ubicación GPS del dispositivo mediante stream continuo.
