@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:label="flutter_application_gps"
@@ -29,7 +30,6 @@
             </intent-filter>
         </activity>
 
-        <!-- ✅ Servicio de ubicación en primer plano del plugin geolocator -->
         <!-- Sin esto, Android mata el GPS al minimizar la app -->
         <service
             android:name="com.baseflow.geolocator.GeolocatorLocationService"
@@ -46,6 +46,14 @@
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT" />
             <data android:mimeType="text/plain" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
         </intent>
     </queries>
 

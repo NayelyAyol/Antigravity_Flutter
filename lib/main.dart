@@ -129,7 +129,6 @@ class _MainLocationScreenState extends State<MainLocationScreen>
     }
   }
 
-  /// ✅ Construye el LocationSettings correcto según la plataforma.
   /// En Android usa AndroidSettings con ForegroundNotificationConfig
   /// para mantener el GPS vivo en segundo plano.
   LocationSettings _buildLocationSettings() {
@@ -138,16 +137,11 @@ class _MainLocationScreenState extends State<MainLocationScreen>
         accuracy: LocationAccuracy.high,
         distanceFilter: 10,
         intervalDuration: const Duration(seconds: 10),
-        // ✅ CLAVE: Foreground Service con notificación visible.
         // Sin esto Android mata el proceso al minimizar.
         foregroundNotificationConfig: const ForegroundNotificationConfig(
           notificationTitle: 'GPS Activo',
           notificationText: 'Registrando tu ubicación en segundo plano...',
           enableWakeLock: true, // Evita que el CPU duerma y corte el GPS
-          notificationIcon: AndroidResource(
-            name: 'ic_launcher',
-            defType: 'mipmap',
-          ),
         ),
       );
     }
