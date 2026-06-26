@@ -1,4 +1,4 @@
-# <h1 align="center"> 📍 GPS Tracker - Geolocalización en Tiempo Real con Flutter 💙 </h1>
+# <h1 align="center"> 📍 GPS Tracker - Geolocalización en Tiempo Real con Flutter / Antigravity 💙 </h1>
 
 ## Descripción
 
@@ -88,7 +88,7 @@ Antigravity analizó el requerimiento y generó automáticamente la lógica nece
 - Validar los datos obtenidos.
 - Manejar errores de geolocalización.
 - Mostrar información detallada de la ubicación.
-- Diseñar una interfaz moderna con Material 3.
+- Diseñar una interfaz moderna.
 
 #### Implementación del seguimiento en segundo plano
 
@@ -103,6 +103,9 @@ flutter run
 ```
 
 Posteriormente se verificó el correcto funcionamiento de la interfaz y de la lectura GPS.
+
+<img width="922" height="468" alt="image" src="https://github.com/user-attachments/assets/046ad1dd-fb82-45cc-a942-303e6d7354c0" />
+
 
 ---
 
@@ -392,7 +395,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 ## Video de funcionamiento
 
-*(Agrega aquí el enlace al video de demostración)*
+- https://vt.tiktok.com/ZSCjEoaEx/
 
 ---
 
